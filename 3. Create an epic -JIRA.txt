@@ -5,8 +5,8 @@ our Epic list					                                        Epics
 |---Cancelling Orders	                                             -------------------- |------------------------				    
 |---User Account			                             |                    |		          |    
 |---Shopping Interface	                                       User Stories	        Tasks                     Bug
-|---Product Search			                                       |
-|---Loyalties Program			                                     Sub-tasks
+|---Product Search			                           |
+|---Loyalties Program			                         Sub-tasks
 |---Shopping Location
 
 Create an Epic (Large User Story/Requirement) from a new issue
