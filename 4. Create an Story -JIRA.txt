@@ -1,6 +1,6 @@
 Create an Story
 ----------------------------------
-1. Click the "create" button located in the global navigation bar at the top of the screen.
+1. Click the "Create" button (located in the global navigation bar at the top of the screen.)
 2. Issue Type: Select "Story"
 3. Summary: type " Story Title" here
 4. Description: Fill in the description field if necessary.
