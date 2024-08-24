@@ -1,7 +1,7 @@
 E-Commerce Shopping Software App
 ----------------------------------------
 our Epic list					                                        Epics		
-|---Shopping Cart					                                      |					
+|---Shopping Cart					                                  |					
 |---Cancelling Orders	                                             -------------------- |------------------------				    
 |---User Account			                                             |                    |		                    |    
 |---Shopping Interface	                                       User Stories	          Tasks                     Bug
