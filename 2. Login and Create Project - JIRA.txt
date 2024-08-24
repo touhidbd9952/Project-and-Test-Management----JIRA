@@ -1,0 +1,29 @@
+
+	
+
+Create a FREE Account with Jira
+--------------------------------------
+
+	a. go to "https://www.alvinthepm.com/getting-started-jsoftware/" or "https://atlassian.sjv.io/c/3571108/1583141/17715" and click on "Get Jira free"
+	b. login by gmail account
+	c. type your site name "myjiraproject-01"
+	d. What kind of work do you do: Software development
+	e. How does your team plan to use Jira: Track bugs, Manage task, Prioritize work
+	f. Name your project: project-01      How familiar are you with Jira: Not familiar. Now click on "Get started" button
+
+To see all JIRA shortcut project link : click on logo of JIRA website
+
+Create Project
+---------------
+	a. click on "Projects" menu --> Create project
+	b. Project templates: Software development-->Scrum and click on "Use template"
+	c. Choose a project type: select a company manage project
+	d. Add project details:
+		Name: E-commerce Shopping App
+		Key: ESA        //short name of project name
+	e. click on "Next" button
+	
+
+
+     
+	

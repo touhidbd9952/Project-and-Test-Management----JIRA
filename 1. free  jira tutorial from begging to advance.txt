@@ -1,0 +1,244 @@
+Login to JIRA and Create Project
+----------------------------------
+1. open browser and type "jira cloud free account". click on "Free cloud software plans | Atlassian"
+2. in "ATLASSIAN" website, click on "Try Now" 
+3. in "Plan & Track", click on  "Try cloud"  of "Jira Software" --> click on select button of "Confluence" --> Next
+4. login page, enter email and website name (click on "Accept all coockies")
+5. Some tools that is importand to learn, now just click on "Skip"
+---------------------------------------
+Slack, Microsoft Teams, Microsoft Outlook, Zendesk, Google Sheets, Zoom, CircleCI, Zeplin, Figma
+
+6. Invite your teammates, uncheck "Let my teammates invite other people to our site" --> click on "Continue" button
+7. Help us set up your Jira, I am "new to" --> My team is "new to" --> We spend our time working on "features" --> We have a "flexible" ---> click on "Next"
+8. Add project details, Name: "your-project-name", Key: "unik-id-name" --> now your can change template, click on "Change template" button
+    in "Software development", click on "Scrum" --> click on "Use template" button
+    --> to select "Company-managed" template, click on "Select a company-managed project" --> click on "Create project"
+
+
+
+9. Create ISSUE
+-----------------
+9.  In Jira Software, to create Issue (task), click on "Create" button
+
+     	Issue Type: Task
+	Summary: Write your task title here like "Test User Story"
+	
+	click on "Create" button
+
+10. See All ISSUE List
+-----------------------
+To see all the ISSUE/Task, click on "Backlog" menu
+
+11. Add New ISSUE Type in ISSUE Type List
+------------------------------------------------------
+To go configuration (Issue), click on settings star icon (at the top right corner) and click on "Issues" to see Issue types dashboard. 
+      
+	a. To add new Issue type, click on "Add Issue type" button
+	--------------------------------------------------------------
+
+	Name: Spike
+	Description: type a proper description like "This is when we don't know the end outcome of the issue type"
+	
+	click on "Add" button
+
+	b. Add Issue (Avatar) image
+	-----------------------------
+	click on "Issue types" menu --> select "Spike" and click on (...) 3 dot icon --> click on "Edit" 
+	
+	in Edit Issue Type, click on "select image" --> select appropriate image and click on "Update" button 
+
+	c. How to set new created Issue in Issue Type
+	--------------------------------------------------------
+	In "Issue Types" deskboard, click on "Issue type schemes" menu 
+
+		i. in "Scrum Issue Type Scheme" section, click on (...) 3dot menu icon --> click on "Associate" 
+
+			Projects: select your project
+			
+			click on "Associate" button
+
+		ii. in "Scrum Issue Type Scheme" section, click on (...) 3dot menu icon --> click on "Edit"
+
+			1. select "Spike" from "Available Issue Types" box and drug and drop to "Issue Types for Current Scheme" box
+			2. click on "Save" button
+
+	d. now go to your own project, and check your new created issue type is added in Issue Type list or not
+
+		i. click on top side menu "Projects" and select your project
+		ii. click on "Create" button to open Create issue window
+
+			in "Create issue" window, click on "Issue Type" dropdown and check new issue type is add or now
+
+ 
+
+12. Create "Sprint Time" and Add "Task" list in this Sprint Time. Start Sprint, View Active Sprint, Add New Column in Sprint Board 
+      and Check the result
+
+	Create "Sprint Time"
+	---------------------------
+	click on "Backlog" menu, 
+
+	i. click on "Create sprint" button --> click on (...) 3 dot menu icon --> Edit sprint
+
+		Sprint name: Your Sprint Name with number like "BDU Spring 1"
+		Duration: 2 weeks
+		Start date: select start date
+		End date: no need to select 
+		Sprint goal: type about this sprint task
+
+		click on "Update" button
+
+
+	Add "EPIC"  in this Sprint Time
+	-----------------------------------------
+	after create "Sprint", you need to add EPIC in this Sprint
+
+		i. select EPIC "Test User Story" from "Backlog" drug and drop to the particular Sprint "BDU Spring 1"
+	
+	Add "BUG" in this Sprint Time
+	-----------------------------------------
+	if your found "BUG" in "Test User Story", you need to create "BUG Issue" in "Test User Story", 
+	    
+		i. go to "Backlog" menu and select particular Sprint "BDU Spring 1" 
+		ii. click on "Create issue" button
+
+			1. first, select Issue Type  as "Bug"
+			2. second, type bug title and press enter
+	
+	Add "TASK" in this Sprint Time
+	-----------------------------------------
+	if you need to add a task in this Sprint
+
+		i. go to "Backlog" menu and select particular Sprint "BDU Spring 1" 
+		ii. click on "Create issue" button
+
+			1. first, select Issue Type  as "Task"
+			2. second, type task title and press enter
+
+
+	Start Sprint
+	----------------------------------------
+	after define necessary things (EPIC, BUG, TASK etc.), you need to start this Sprint
+
+		i. go to "Backlog" menu and select particular Sprint "BDU Spring 1" 
+		ii. click on "Start Sprint" button 
+		iii. if every thing is ok, click on "Start" button at the end of this form.
+
+	View Active Sprint
+	----------------------------------------
+	to see Active Sprint list, 
+	
+		i. go to "Active sprints" menu and select particular sprint
+		
+		- Here you will see below section
+			a. To Do: what you need to do.
+			b. In Progress: your working task list that are in progress.
+			c. Done: list of all task that you have finished
+		- You can also see, how much time is remaining for this Sprint
+
+		
+	Add New Column in Sprint Board
+	-----------------------------------------
+	you can add new Column in particular Sprint Dashboard
+
+		i. go to "Active sprints" menu and select particular sprint
+		
+			a. click on star "setting icon" --> Issues
+			b. in "Issues" menu --> Workflows
+			c. in Issues Workflows, Active --> Edit 
+			d. in "Software Simplified Workflow for Project ...,", 
+			    click on "Add Status" button --> Type "Review" and 
+			    click on "Review (new status)" --> select "Allow all statuses to transition to this one"
+			e. click on "Add" button
+			f. in "Create New Status" pop up window, 
+				
+				- Category: select before column name "In Progress"
+				- click on "Create" button
+
+		ii. in "Workflow" 
+			
+			a. set "REVIEW" status after "IN PROGRESS" by drug and drop
+			b. set "DONE" status after "REVIEW" by drug and drop
+			c. now click on "Publish Draft" to save your settings
+
+				- Save a backup copy: yes
+				- click on "Publish"
+
+
+	Check the result
+	------------------------------------
+	i. go to Jira Software Dashboard
+		a. click on "Projects" menu
+		b. click on your project
+		c. click on "Active sprints" menu
+		d. if you do not see "REVIEW" column after "IN PROGRESS" column then do the below task
+			i. click on (...) 3 dot menu --> Board Settings
+			ii. in Settings for ... board, click on "Columns" of SETTINGS
+			
+				a. click on "Add column" button
+				
+					Name: Review
+					click on "Add" button
+	ii. Now check the result, again
+
+
+			
+
+13. How to configure project Sprint Settings 
+
+	Dashboard Settings
+	-----------------------------------------
+
+	We can change Sprint Dashboard Settings by below way
+	
+	i. go to "Active sprints" menu and select particular sprint
+
+		a. click on star "setting icon" --> Board settings
+		b. in "Settings for BDU board" page, click on "General" menu --> Filter --> Edit Filter Query
+
+			1. in "Search box", type
+			
+				project = BDU and issuetype = Story ORDER By Rank ASC     //project = BDU ORDER By Rank ASC       (default settings)
+
+				click on "Search" button
+
+			2. now go back to "Active sprints" menu and select particular sprint and see it's dashboard settings  
+
+
+
+	Column Settings
+	-----------------------------------------
+	i. go to "Active sprints" menu and select particular sprint
+		
+		- Here you will see below section (default)
+			a. To Do: what you need to do.
+			b. In Progress: your working task list that are in progress.
+			c. Done: list of all task that you have finished	
+
+   		- To change Column Settings
+			a. click on star "setting icon" --> Board settings
+			b. in "Settings for BDU board" page, click on "Columns" menu
+
+
+	Swimlanes Settings
+	-----------------------------------------
+	A swimlance is a row on the board that can be used to group issues. To change Swimlance type, follow below steps
+	
+	i. go to "Active sprints" menu and select particular sprint
+		
+		- Here you will see below section (default)
+			
+
+   		- To change Swimlanes Settings
+			a. click on star "setting icon" --> Board settings
+			b. in "Settings for BDU board" page, click on "Swimlanes" menu
+			c. in Swimlanes page, 
+				Base Swimlanes on: Queries
+				Name: Stories
+				SQL: project = BDU AND issuetype = story
+				
+				click on "Add" button
+
+
+		
+ 		

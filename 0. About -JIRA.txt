@@ -1,0 +1,44 @@
+What is JIRA:
+- Jira is used to manage Agile projects 
+- used for business and development teams in many industries
+- you can setup a Backlog of work items to manage Sprints  using the Scrum
+- Jira is mainly created for bug tracking. 
+
+
+What is an Issue in Jira?
+-----------------------------------
+Issue types: Issue types indicate what kind of work an issue represents. There are different type of issue
+- Epic
+- Story
+- Bug
+- Task
+- Sub-task
+
+	                  Sprint
+		    |
+	                   Epic 
+		    |
+    ------------------------------------------------
+    |		    |		    |
+Story		 Bug		Task
+    |		    |		    |
+Sub-task		Sub-task		Sub-task
+
+
+Sprint: a sprint is a short period (one week to one month) in which the development team implements and delivers an application increment.
+
+Epic: epic is a feature (large user story). It is often broken down into manageable user stories.
+        Used to identify an overall goal that needs to be achieved.
+
+Story: user stories are brief requests written from the user's perspective. 
+          Stories may be part of larger Story, which are called Epics.
+
+Bug: bugs are problems that needs to be fixed.
+
+Task: a work that needs to be done.
+
+Sub-task: a task is divided into several small task that are required to complete a story, task, or bug.
+
+
+
+

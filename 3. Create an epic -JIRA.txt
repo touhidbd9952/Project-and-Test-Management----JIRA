@@ -1,0 +1,31 @@
+E-Commerce Shopping Software App
+----------------------------------------
+our Epic list					                 Epics		
+|---Shopping Cart					    |					
+|---Cancelling Orders	                                             -------------------- |------------------------				    
+|---User Account			         |                     	    |		    |    
+|---Shopping Interface	                                     User Stories	Tasks                             Bug
+|---Product Search			         |
+|---Loyalties Program			  Sub-tasks
+|---Shopping Location
+
+Create an Epic (Large User Story/Requirement) from a new issue
+----------------------------------
+1. click on "Backlog" menu
+2. click on "Create" button located in the navigation bar at the top of the screen.
+3. Project: select your project
+4. Issue Type: select "Epic"
+5. Status: To Do
+6. Epic Name: Shopping Cart
+7. Summary: Shopping Cart       //keep it short 
+8. Description: Purpose Defining functionality for the shopping cart interface for checking out & purchasing items
+9. Reporter: Touhid  //who created it
+10. Priority: Medium  //set according to requirement 
+11. click on "Create" button
+
+Show "Epic Panel" in Backlog page
+--------------------
+right click on "Epic" menu --> Epic (turn on)
+
+
+
